@@ -1,0 +1,13 @@
+Source: srs
+Section: video
+Priority: optional
+Maintainer: derchris <derchris@me.com>
+Build-Depends: debhelper (>=11), cmake, gcc, make, gcc-c++, patch, unzip, perl, git
+Standards-Version: 3.9.7
+Homepage: https://github.com/ossrs/srs
+
+Package: srs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: SRS(Simple Realtime Server)
+ SRS is a simple, high efficiency and realtime video server, supports RTMP/WebRTC/HLS/HTTP-FLV/SRT.
