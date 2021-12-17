@@ -2,7 +2,7 @@ Source: srs
 Section: video
 Priority: optional
 Maintainer: derchris <derchris@me.com>
-Build-Depends: debhelper (>=11), cmake, gcc, make, patch, unzip, perl
+Build-Depends: debhelper (>=11), cmake, gcc, make, patch, unzip, perl, tcl, pkg-config, openssl, libssl-dev
 Standards-Version: 3.9.7
 Homepage: https://github.com/ossrs/srs
 
